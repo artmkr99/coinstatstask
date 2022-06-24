@@ -93,7 +93,6 @@ final class CoinTableViewCell: UITableViewCell {
         super.prepareForReuse()
         coinName.text = nil
         coinIcon.image = nil
-        coinPriceLabel.text = nil
         coinRank.text = nil
         coinShortName.text = nil
         cancellables = []
