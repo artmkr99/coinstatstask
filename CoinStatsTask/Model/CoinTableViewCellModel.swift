@@ -17,5 +17,4 @@ class CoinTableViewCellModel {
         self.coin = coin
         livePrice = CurrentValueSubject(coin.price ?? 0)
     }
-    
 }

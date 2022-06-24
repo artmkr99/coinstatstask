@@ -40,6 +40,8 @@ final class CoinTableViewCell: UITableViewCell {
         coinRank.minimumScaleFactor = 0.5
         coinPriceLabel.adjustsFontSizeToFitWidth = true
         coinPriceLabel.minimumScaleFactor = 0.5
+        coinPercent.adjustsFontSizeToFitWidth = true
+        coinPercent.minimumScaleFactor = 0.5
         coinName.adjustsFontSizeToFitWidth = true
         coinName.minimumScaleFactor = 0.5
     }
